@@ -1,0 +1,35 @@
+# Reports, presentations & archives (code-only portfolio)
+*.pptx
+*.docx
+*.pdf
+*.zip
+~$*
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# R
+.Rhistory
+.RData
+.Rproj.user/
+
+# Caches
+huggingface_cache/
+my_huggingface_cache/
+.cache/
+
+# OS junk
+__MACOSX/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IMDB 50K dataset (63 MB) - download from Kaggle (see README)
+IMDB Dataset.csv
